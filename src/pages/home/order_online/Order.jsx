@@ -26,16 +26,48 @@ const Order = () => {
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
     >
-      <SwiperSlide> <img src={slider1} alt='image' /></SwiperSlide>
-      <SwiperSlide> <img src={slider2} alt='image' /></SwiperSlide>
-      <SwiperSlide> <img src={slider3} alt='image' /></SwiperSlide>
-      <SwiperSlide> <img src={slider4} alt='image' /></SwiperSlide>
-      <SwiperSlide> <img src={slider5} alt='image' /></SwiperSlide>
-      <SwiperSlide> <img src={slider1} alt='image' /></SwiperSlide>
-      <SwiperSlide> <img src={slider2} alt='image' /></SwiperSlide>
-      <SwiperSlide> <img src={slider3} alt='image' /></SwiperSlide>
-      <SwiperSlide> <img src={slider4} alt='image' /></SwiperSlide>
-      <SwiperSlide> <img src={slider5} alt='image' /></SwiperSlide>
+      <SwiperSlide>
+         <img src={slider1} alt='image' />
+         <h3 className='text-center font-3xl -mt-12 '>Salad</h3>
+         </SwiperSlide>
+      <SwiperSlide> 
+        <img src={slider2} alt='image' />
+        <h3 className='text-center font-3xl -mt-12 '>Salad</h3>
+        </SwiperSlide>
+      <SwiperSlide> 
+        <img src={slider3} alt='image' />
+        <h3 className='text-center font-3xl -mt-12 '>Salad</h3>
+        </SwiperSlide>
+      <SwiperSlide>
+         <img src={slider4} alt='image' />
+         <h3 className='text-center font-3xl -mt-12 '>Salad</h3>
+         </SwiperSlide>
+      <SwiperSlide>
+        
+         <img src={slider5} alt='image' />
+         <h3 className='text-center font-3xl -mt-12 '>Salad</h3>
+         
+         </SwiperSlide>
+      <SwiperSlide> 
+        <img src={slider1} alt='image' />\
+        <h3 className='text-center font-3xl -mt-12 '>Salad</h3>
+        </SwiperSlide>
+      <SwiperSlide>
+         <img src={slider2} alt='image' />
+         <h3 className='text-center font-3xl -mt-12 '>Salad</h3>
+         </SwiperSlide>
+      <SwiperSlide>
+         <img src={slider3} alt='image' />
+         <h3 className='text-center font-3xl -mt-12 '>Salad</h3>
+         </SwiperSlide>
+      <SwiperSlide>
+         <img src={slider4} alt='image' />
+         <h3 className='text-center font-3xl -mt-12 '>Salad</h3>
+         </SwiperSlide>
+      <SwiperSlide> 
+        <img src={slider5} alt='image' />
+        <h3 className='text-center font-3xl -mt-6 '>Salad</h3>
+        </SwiperSlide>
 
 
     </Swiper>
