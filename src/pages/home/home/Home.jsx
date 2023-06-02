@@ -9,9 +9,14 @@ import Order from "../order_online/Order";
 import PapularItems from "../papularitems/PapularItems";
 
 
+import { Helmet } from 'react-helmet-async';
 const Home = () => {
   return (
     <div>
+      <Helmet>
+        <title>home</title>
+
+      </Helmet>
       <Bannar></Bannar>
       <BistrooBoss></BistrooBoss>
 

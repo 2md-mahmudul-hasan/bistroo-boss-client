@@ -1,11 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const navItems = <>
-    <li><a>Item 1</a></li>
-    <li><a>Item 2</a></li>
-    <li><a>Item 3</a></li>
-    <li><a>Item 4</a></li>
+    <li><Link to='/'>Home</Link></li>
+    <li><Link to='/menu'>Menu item</Link></li>
   </>
 
   return (
