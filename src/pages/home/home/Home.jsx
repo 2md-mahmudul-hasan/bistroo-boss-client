@@ -1,4 +1,5 @@
 
+import ContactNumber from "../../../components/contact_number/ContactNumber";
 import Bannar from "../bannar/Bannar";
 import BistrooBoss from "../bistroo_boss/BistrooBoss";
 import Order from "../order_online/Order";
@@ -14,6 +15,7 @@ const Home = () => {
       <Order></Order>
 
       <PapularItems></PapularItems>
+      <ContactNumber></ContactNumber>
     </div>
   );
 };
