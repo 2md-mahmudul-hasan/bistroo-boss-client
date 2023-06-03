@@ -5,14 +5,14 @@ import Cover from '../cover/Cover';
 const MenuCategory = ({ items, coverDetails, coverTitle, coverImg }) => {
 
   return (
-    <div>
+    <div className='py-4'>
       {coverTitle && <Cover
         className="w-full"
         coverTitle={coverTitle}
         coverDetails={coverDetails} img={coverImg}
       >
       </Cover>}
-      <div className="menu my-8 grid grid-cols-2 gap-4">
+      <div className="menu my-8 grid grid-cols-2 gap-4 mt-4">
         {items.map(item => <MenuItem key={item._id} item={item}></MenuItem>)}
       </div>
     </div>
