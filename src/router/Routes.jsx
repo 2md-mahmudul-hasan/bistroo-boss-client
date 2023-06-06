@@ -27,7 +27,7 @@ export const router = createBrowserRouter([
         element: <Order></Order>
       },
       {
-        path: '/order/:title',
+        path: '/order/:category',
         element: <Order></Order>
       }
     ]
